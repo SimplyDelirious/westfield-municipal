@@ -1,0 +1,33 @@
+{
+  "fictional": {
+    "family": [
+      {"title":"A Family Affair","description":"Word around town is that a longtime married couple has separated. Neither has offered a reason.","hook":"Family friends and neighbors may invent their own reactions; no player-owned family is assigned."},
+      {"title":"The Neighborhood Sale","description":"Several households have organized a Saturday yard sale on Oak Street.","hook":"Residents can buy, sell, gossip, or discover an interesting object."}
+    ],
+    "school": [
+      {"title":"School Board Meeting","description":"The school board is hearing complaints about budget cuts and the condition of the gymnasium.","hook":"Students, parents, and staff can attend."},
+      {"title":"Dance Committee","description":"Volunteers are wanted for the winter dance. The student council insists there will be no trouble this year.","hook":"Help plan the dance, lobby for music, or start a harmless rivalry."}
+    ],
+    "crime": [
+      {"title":"Car Reported Missing","description":"Police are asking for information about a blue sedan reportedly taken from a downtown parking lot.","hook":"Witnesses can come forward; do not assign guilt to another player's character."},
+      {"title":"Broken Windows","description":"Three downtown storefront windows were smashed overnight. The damage was discovered before opening.","hook":"Shopkeepers, officers and teens can respond."}
+    ],
+    "business": [
+      {"title":"HELP WANTED","description":"The diner is hiring for weekend and evening shifts.","hook":"Players can apply through roleplay."},
+      {"title":"Factory Meeting","description":"Factory workers have been invited to a meeting about changes to the autumn shift schedule.","hook":"Workers and their households can get involved."}
+    ],
+    "supernatural": [
+      {"title":"Unexplained Power Failure","description":"Several houses on the north side lost electricity for three minutes last night. The utility has not given an explanation.","hook":"Powered families may have theories; nobody is automatically blamed."},
+      {"title":"Strange Reports at the Lake","description":"Two callers reported an unusual light above the lake. The sheriff's office found nothing out of place.","hook":"Skeptics, curious residents and supernatural characters can investigate."}
+    ],
+    "community": [
+      {"title":"Founder's Day Volunteers","description":"Town hall needs volunteers to help prepare banners, booths and refreshments for the upcoming festival.","hook":"Businesses, school clubs and families can participate."},
+      {"title":"Public Library Book Drive","description":"The library is collecting used books throughout the month.","hook":"Characters can donate, volunteer or attend the sale."}
+    ]
+  },
+  "history": [
+    {"month":1,"day":24,"title":"APPLE INTRODUCES MACINTOSH","description":"Apple has unveiled its new Macintosh personal computer. The news is generating discussion about how computers might change schools and offices.","source":"https://www.computerhistory.org/tdih/january/24/"},
+    {"month":7,"day":28,"title":"LOS ANGELES SUMMER OLYMPICS OPEN","description":"The Summer Olympic Games are beginning in Los Angeles. Residents are gathering around televisions to follow the competition.","source":"https://library.olympics.com/Default/basicfilesdownload.ashx?itemGuid=2ECE9BE9-EA5F-4F0F-97DF-84C75B6BC60A"},
+    {"month":8,"day":12,"title":"LOS ANGELES OLYMPICS CONCLUDE","description":"The Los Angeles Summer Olympics conclude today after more than two weeks of competition.","source":"https://library.olympics.com/Default/basicfilesdownload.ashx?itemGuid=2ECE9BE9-EA5F-4F0F-97DF-84C75B6BC60A"}
+  ]
+}
