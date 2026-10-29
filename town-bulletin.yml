@@ -1,0 +1,37 @@
+name: Post 1984 town bulletin
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'mixed / town / history'
+        required: true
+        default: 'mixed'
+        type: choice
+        options:
+          - mixed
+          - town
+          - history
+      rp_date:
+        description: 'Optional in-roleplay date (1984-MM-DD); blank = current real month/day'
+        required: false
+        type: string
+  schedule:
+    - cron: '17 18 * * 1,4'
+      timezone: 'America/New_York'
+permissions:
+  contents: read
+jobs:
+  bulletin:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Post one bulletin to Discord
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          POST_MODE: ${{ inputs.mode || 'mixed' }}
+          RP_DATE: ${{ inputs.rp_date || '' }}
+        run: python post_bulletin.py
